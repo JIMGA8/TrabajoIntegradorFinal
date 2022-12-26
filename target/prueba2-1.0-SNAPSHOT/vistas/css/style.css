@@ -1,0 +1,35 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+.error{
+    font-size: 14px !important;
+    color: red !important;
+    margin:0 ;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+.box{
+    display:flex;
+}
+.required, .text-required{
+    color: rgb(0, 113, 197) !important;
+}
+.text-required{
+    text-align: right !important;
+}
+
+.MWUDs {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#tabla{
+    min-height: 420px !important;
+}
