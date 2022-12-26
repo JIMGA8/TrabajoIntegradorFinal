@@ -73,24 +73,10 @@
                         <td><%=resultado.get(i).getFnac()%></td>
                         <td><%=resultado.get(i).getEmail()%></td>
                         <td><%=resultado.get(i).getTelefono()%></td>
-                        <td class="text-center"><a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="secondary"><i class="fa-solid fa-trash"></i></a></td>
+                        <td class="text-center"><a href=<%=rutaE%>><i class="fa-solid fa-trash"></i></a></td>
 			<td class="text-center"><a href=<%=ruta%>><i class="fa-solid fa-pen-to-square"></i></a></td>
                     </tr>
-                    
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                       <div class="modal-dialog">
-                           <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">¿Deseas Eliminar al socio? <%=resultado.get(i).getNombre()%> </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                    <a href=<%=rutaE%>><button type="button" class="btn btn-primary">Eliminar</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <%
                         }
                     %>
